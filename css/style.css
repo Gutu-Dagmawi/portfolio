@@ -369,4 +369,86 @@ nav {
     .about {
         grid-template-columns: 1fr;
     }
+}
+
+/* Contact Section */
+.contact {
+    background-color: #6070FF;
+    padding: 80px 20px;
+    border-top-left-radius: 80px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('../images/contact-shapes.png') no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    background: white;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form .submit-btn {
+    background: white;
+    color: #6070FF;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    align-self: center;
+    transition: all 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background: #6070FF;
+    color: white;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.contact-form .submit-btn:active {
+    background: #2230D2;
+    color: white;
 } 
