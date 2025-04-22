@@ -1,0 +1,98 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Navigation */
+header {
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    color: #6070FF;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #344563;
+}
+
+/* Hero section */
+.hero {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #091E42;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    max-width: 600px;
+    color: #344563;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #505F79;
+    font-size: 1.2rem;
+}
+
+/* Add decorative elements */
+.hero::before,
+.hero::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #6070FF;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.hero::before {
+    top: -50px;
+    right: -50px;
+}
+
+.hero::after {
+    bottom: -50px;
+    left: -50px;
+} 
