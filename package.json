@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:html": "htmlhint src/*.html",
+    "lint:css": "stylelint \"**/*.css\"",
+    "fix:css": "stylelint \"**/*.css\" --fix",
+    "format": "prettier --write \"**/*.{css,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gutu-Dagmawi/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gutu-Dagmawi/portfolio/issues"
+  },
+  "homepage": "https://github.com/Gutu-Dagmawi/portfolio#readme",
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-html": "^8.1.2",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-order": "^7.0.0",
+    "stylelint-prettier": "^5.0.3"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.25.1",
+    "stylelint-config-recommended": "^16.0.0"
+  }
+}
