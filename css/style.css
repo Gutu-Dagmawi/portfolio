@@ -669,4 +669,100 @@ nav {
 .contact-form .submit-btn:active {
     background: #2230D2;
     color: white;
+}
+
+/* Project Modal Popup Styles */
+#project-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(9, 30, 66, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+#project-modal {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 800px;
+  width: 95vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(9,30,66,0.2);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  position: relative;
+}
+#project-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #344563;
+  cursor: pointer;
+}
+.project-modal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+#project-modal-title {
+  font-size: 2rem;
+  color: #091E42;
+}
+#project-modal-meta {
+  color: #7A869A;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#project-modal-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+#project-modal-description {
+  color: #344563;
+  margin-bottom: 1rem;
+}
+#project-modal-tech {
+  margin-bottom: 1rem;
+}
+#project-modal-tech span {
+  display: inline-block;
+  background: #EBEBFF;
+  color: #6070FF;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+#project-modal-links {
+  display: flex;
+  gap: 1rem;
+}
+#project-modal-links a {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  color: #6070FF;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+  background: #fff;
+}
+#project-modal-links a:hover {
+  background: #6070FF;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  #project-modal {
+    padding: 1rem 0.5rem;
+  }
+  #project-modal-title {
+    font-size: 1.3rem;
+  }
 } 
