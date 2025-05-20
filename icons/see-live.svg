@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>See Live Icon</title>
+    <g id="see-live-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,0 C13.9705627,0 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 C4.02943725,18 0,13.9705627 0,9 C0,4.02943725 4.02943725,0 9,0 Z M9,2 C5.13400675,2 2,5.13400675 2,9 C2,12.8659932 5.13400675,16 9,16 C12.8659932,16 16,12.8659932 16,9 C16,5.13400675 12.8659932,2 9,2 Z" id="external-link" fill="currentColor" fill-rule="nonzero"></path>
+        <path d="M9,4 C11.7614237,4 14,6.23857625 14,9 C14,11.7614237 11.7614237,14 9,14 C6.23857625,14 4,11.7614237 4,9 C4,6.23857625 6.23857625,4 9,4 Z M9,6 C7.34314575,6 6,7.34314575 6,9 C6,10.6568542 7.34314575,12 9,12 C10.6568542,12 12,10.6568542 12,9 C12,7.34314575 10.6568542,6 9,6 Z" id="external-link-inner" fill="currentColor" fill-rule="nonzero"></path>
+        <path d="M13,5 L15,5 L15,7" id="arrow" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="10" y1="8" x2="15" y2="3" id="arrow-line" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+    </g>
+</svg>
